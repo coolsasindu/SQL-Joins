@@ -1,5 +1,6 @@
 # SQL-Joins product and supplier Table
 
+```sql
 
 -- Table structure for table `supplier`
 --
@@ -52,7 +53,7 @@ CREATE TABLE IF NOT EXISTS `product` (
   PRIMARY KEY (`pid`)
 ) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=7 ;
 
-
+```
 #join Table in SID
 
 SELECT product.pid, product.Product_Name, supplier.Supplier_Name
